@@ -1234,6 +1234,12 @@ video {
   }
 }
 
+@media (min-aspect-ratio: 13/20) and (max-aspect-ratio: 3/2) {
+  .tabletscreen\:section-min-height {
+    min-height: calc(100vh - 68px)
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:border-none {
     border-style: none;
