@@ -726,10 +726,6 @@ video {
   margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .rounded {
   border-radius: 0.25rem;
 }
@@ -797,11 +793,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -854,11 +845,6 @@ video {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
   line-height: 1;
 }
 
@@ -1242,7 +1228,7 @@ video {
   }
 }
 
-@media (min-aspect-ratio: 13/20) {
+@media (max-aspect-ratio: 13/20) {
   .tallscreen\:section-min-height {
     min-height: calc(100vh - 68px)
   }
